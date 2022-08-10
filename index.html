@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./fonts/fonts.css">
+<link rel="stylesheet" href="./css/style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remember Everything</title>
+</head>
+
+
+<body>
+    <div class='wrapper'>
+        <div class="full" id="home">
+            <header class='header'>
+                <div class='box'>
+                    <div class='header__menu menu' id="menu">
+                        <div class='menu__burger' id="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <nav class='menu__nav' id="nav">
+                            <ul class='menu__list'>
+                                <li><a href='#home' class='menu__link'>Home</a></li>
+                                <li><a href='#about' class='menu__link'>About me</a></li>
+                                <li><a href='#skills' class='menu__link'>Skills</a></li>
+                                <li><a href='#portfolio' class='menu__link'>Portfolio</a></li>
+                                <li><a href='#footer' class='menu__link'>Contacts</a></li>
+                            </ul>
+                            <div class="menu__img">
+                                <img src="./img/header/lang.svg" alt="language">
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="box box-md">
+                <div class="full__info">
+                    <div class="full__name">Denis<br>Novik</div>
+                    <div class="full__designer">UX | UI designer<br>
+                        24 years old, Minsk</div>
+                    <div class="full__lang">
+                        <img src="./img/header/langMini.svg" alt="language">
+                    </div>
+                </div>
+                <div class="full__portrait">
+                    <picture>
+                        <source srcset="./img/header/port.png" media="(min-width: 480px)">
+                        <source srcset="./img/header/portMini.png" media="(max-width: 480px)">
+                        <img src="./img/header/port.png" alt="me">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <main class='content'>
+            <div class="about" id="about">
+                <div class="about__title title">About me</div>
+                <div class="about__info">
+                    <span>
+                        Hi, I'm Denis - UX/UI designer from Minsk.
+                        I'm interested in design and everything connected with it.
+                    </span>
+
+                    <span>
+                        I'm studying at courses "Web and mobile design
+                        interfaces" in IT-Academy.
+                    </span>
+
+                    <span>
+                        Ready to implement excellent projects
+                        with wonderful people.
+                    </span>
+                </div>
+            </div>
+            <div class="skills" id="skills">
+                <div class="box box-md">
+                    <div class="skills__cont">
+                        <div class="skills__title title">Skills</div>
+                        <div class="skills__subtitle">I work in such programs as</div>
+                        <div class="skills__list">
+                            <div class="skills__card sk-card">
+                                <div class="sk-card__img">
+                                    <img src="./img/skills/phot.svg" alt="photoshop">
+                                </div>
+                                <div class="sk-card__info">Adobe<br>Photoshop <br> test adaptive</div>
+                                <div class="sk-card__raiting">
+                                    <img src="./img/skills/four.svg" alt="raiting">
+                                </div>
+                            </div>
+                            <div class="skills__card sk-card">
+                                <div class="sk-card__img">
+                                    <img src="./img/skills/illust.svg" alt="Illustrator">
+                                </div>
+                                <div class="sk-card__info">Adobe <br>Illustrator</div>
+                                <div class="sk-card__raiting">
+                                    <img src="./img/skills/three.svg" alt="raiting">
+                                </div>
+                            </div>
+                            <div class="skills__card sk-card">
+                                <div class="sk-card__img">
+                                    <img src="./img/skills/effects.svg" alt="Effects">
+                                </div>
+                                <div class="sk-card__info">Adobe <br> After Effects</div>
+                                <div class="sk-card__raiting">
+                                    <img src="./img/skills/four.svg" alt="raiting">
+                                </div>
+                            </div>
+                            <div class="skills__card sk-card">
+                                <div class="sk-card__img">
+                                    <img src="./img/skills/figma.svg" alt="figma">
+                                </div>
+                                <div class="sk-card__info">Figma</div>
+                                <div class="sk-card__raiting">
+                                    <img src="./img/skills/four.svg" alt="raiting">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio" id="portfolio">
+                <div class="box box-md">
+                    <div class="portfolio__cont">
+                        <div class="portfolio__title title">Portfolio</div>
+                        <div class="portfolio__list">
+                            <div class="portfolio__card port-card">
+                                <div class="port-card__img">
+                                    <img src="./img/portfolio/first.png" alt="Online store">
+                                </div>
+                                <div class="port-card__link">
+                                    <a href="#">Online fashion store - Homepage</a>
+                                </div>
+                            </div>
+                            <div class="portfolio__card port-card">
+                                <div class="port-card__img">
+                                    <img src="./img/portfolio/second.png" alt="Reebok store">
+                                </div>
+                                <div class="port-card__link">
+                                    <a href="#">Reebok Store - Concept</a>
+                                </div>
+                            </div>
+                            <div class="portfolio__card port-card">
+                                <div class="port-card__img">
+                                    <img src="./img/portfolio/third.png" alt="Landing page">
+                                </div>
+                                <div class="port-card__link">
+                                    <a href="#">Braun Landing Page - Concept</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="box">
+                <div class="footer__cont">
+                    <div class="footer__title title">Contacts</div>
+                    <div class="footer__subtitle">Want to know more or just chat? <br>
+                        You are welcome!</div>
+                    <div class="footer__btn">
+                        <a href="#">Send message</a>
+                    </div>
+                    <div class="footer__list">
+                        <div class="footer__svg">
+                            <img src="./img/footer/linkedin.svg" alt="LinkedIn">
+                        </div>
+                        <div class="footer__svg">
+                            <img src="./img/footer/insta.svg" alt="Instagram">
+                        </div>
+                        <div class="footer__svg">
+                            <img src="./img/footer/behance.svg" alt="Behance">
+                        </div>
+                        <div class="footer__svg">
+                            <img src="./img/footer/dribble.svg" alt="Dribble">
+                        </div>
+                    </div>
+                    <div class="footer__info">Like me on <br>
+                        LinkedIn, Instagram, Behance, Dribble</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
